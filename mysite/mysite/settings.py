@@ -87,5 +87,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "bootstrap"),
-    '/Site/mysite/bootstrap/',
+    '/mysite/bootstrap/',
 )
+TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'template')]
